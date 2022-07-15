@@ -9,7 +9,7 @@
 [license-image]: https://img.shields.io/github/license/funnyzak/OneKeyShell.svg?style=flat-square
 [repository-url]: https://github.com/funnyzak/OneKeyShell
 
-Bash一键维护脚本示例。在CentOS 7+ 、Ubuntu、Debian 10测试运行通过。
+Bash一键维护脚本示例。在CentOS 7+ 、Ubuntu、Debian 10测试，运行通过。
 
 ## Usage
 
