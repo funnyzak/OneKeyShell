@@ -24,7 +24,6 @@ curl -L https://raw.githubusercontent.com/funnyzak/OneKeyShell/main/run.sh -o ru
 ## 预览
 
 ![demo](https://raw.githubusercontent.com/funnyzak/OneKeyShell/main/demo/demo.png)
-![demo](https://raw.githubusercontent.com/funnyzak/OneKeyShell/main/demo/demo.png)
 
 ## License
 
