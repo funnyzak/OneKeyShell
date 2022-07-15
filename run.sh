@@ -15,7 +15,8 @@ yellow='\033[0;33m'
 plain='\033[0m'
 export PATH=$PATH:/usr/local/bin
 
-SCRIPT_UPDATE_DOWNLINK="/cms/script/install.sh"
+# 脚本更新地址
+SCRIPT_UPDATE_DOWNLINK="https://raw.githubusercontent.com/funnyzak/OneKeyShell/main/run.sh"
 
 # 脚本运行时间
 SH_RUN_START_TIME=$(date +%s)
