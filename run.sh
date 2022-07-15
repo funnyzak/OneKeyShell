@@ -279,8 +279,8 @@ webhook_qywx() {
 show_system_info() {
   echo -e "> 显示硬件信息"
 
-  (command -v yum >/dev/null 2>&1 && yum install -y lshw >> ${SH_RUN_LOG_PATH} 2>&1) ||
-  (command -v apt-get >/dev/null 2>&1 && apt-get install -y lshw >> ${SH_RUN_LOG_PATH} 2>&1)
+  (command -v yum >/dev/null 2>&1 && (command -v lshw || yum install -y lshw >> ${SH_RUN_LOG_PATH} 2>&1)) ||
+  (command -v apt-get >/dev/null 2>&1 && (command -v lshw || apt-get install -y lshw >> ${SH_RUN_LOG_PATH} 2>&1))
 
   echo -e "${green}$(lshw -class disk -class storage)"
 
